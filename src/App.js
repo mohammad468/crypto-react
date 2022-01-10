@@ -1,9 +1,12 @@
 import "./App.scss";
 
+// *components
+import Landing from "./components/Landing";
+
 function App() {
   return (
     <div className="App">
-      <h1>hello world!</h1>
+      <Landing />
     </div>
   );
 }
