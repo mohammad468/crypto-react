@@ -1,0 +1,39 @@
+@import "../custom";
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .coin-image{
+        height: 2rem;
+    }
+    .coin-name{
+        font-size: 1rem;
+    }
+    .coin-symbol{
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .coin-current-price{
+        font-size: .8rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .coin-market-cap{
+        font-size: .8rem;
+        text-align: center;
+    }
+    .coin-price-change-red{
+        font-size: .8rem;
+        text-align: center;
+        font-weight: bold;
+        color: $red-400;
+    }
+    .coin-price-change-green{
+        font-size: .8rem;
+        text-align: center;
+        font-weight: bold;
+        color: $green-600;
+    }
+}
